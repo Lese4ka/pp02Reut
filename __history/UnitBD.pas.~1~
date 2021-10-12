@@ -1,0 +1,23 @@
+unit UnitBD;
+
+interface
+
+uses
+  SysUtils, Classes;
+
+type
+  TDataBD = class(TDataModule)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  DataBD: TDataBD;
+
+implementation
+
+{$R *.dfm}
+
+end.

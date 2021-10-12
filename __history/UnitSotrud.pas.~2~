@@ -1,0 +1,33 @@
+unit UnitSotrud;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, Grids, DBGrids;
+
+type
+  TFormSotrud = class(TForm)
+    DBGrid1: TDBGrid;
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormSotrud: TFormSotrud;
+
+implementation
+
+uses UnitBD;
+
+{$R *.dfm}
+
+procedure TFormSotrud.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+Action:= CaFree;
+end;
+
+end.

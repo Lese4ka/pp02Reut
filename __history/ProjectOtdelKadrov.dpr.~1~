@@ -1,0 +1,16 @@
+program ProjectOtdelKadrov;
+
+uses
+  Forms,
+  UnitMane in 'UnitMane.pas' {FormMane},
+  UnitBD in 'UnitBD.pas' {DataBD: TDataModule},
+  UnitSotrud in 'UnitSotrud.pas' {FormSotrud};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TFormMane, FormMane);
+  Application.CreateForm(TDataBD, DataBD);
+  Application.Run;
+end.

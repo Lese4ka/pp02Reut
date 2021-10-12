@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021.05.19 12:00:17.845.pas,C:\Users\User220\Documents\Borland Studio Projects\Unit1.pas=G:\система\UnitMane.pas</Transaction>
+    <Transaction>2021.05.19 12:00:17.845.dfm,C:\Users\User220\Documents\Borland Studio Projects\Unit1.dfm=G:\система\UnitMane.dfm</Transaction>
+    <Transaction>2021.05.19 12:12:34.299.pas,C:\Users\User220\Documents\Borland Studio Projects\Unit1.pas=G:\система\UnitBD.pas</Transaction>
+    <Transaction>2021.05.19 12:12:34.299.dfm,C:\Users\User220\Documents\Borland Studio Projects\Unit1.dfm=G:\система\UnitBD.dfm</Transaction>
+    <Transaction>2021.05.19 12:32:45.524.pas,C:\Users\User220\Documents\Borland Studio Projects\Unit1.pas=G:\система\UnitSotrud.pas</Transaction>
+    <Transaction>2021.05.19 12:32:45.524.dfm,C:\Users\User220\Documents\Borland Studio Projects\Unit1.dfm=G:\система\UnitSotrud.dfm</Transaction>
+    <Transaction>2021.05.19 12:39:04.792.bdsproj,C:\Users\User220\Documents\Borland Studio Projects\Project1.bdsproj=G:\система\ProjectOtdelKadrov.bdsproj</Transaction>
+    <Transaction>2021.05.20 08:46:16.234.pas,F:\система\Unit1.pas=F:\система\UnitOtdel.pas</Transaction>
+    <Transaction>2021.05.20 08:46:16.234.dfm,F:\система\Unit1.dfm=F:\система\UnitOtdel.dfm</Transaction>
+    <Transaction>2021.05.20 08:50:31.897.pas,F:\система\UnitOtdel.pas=</Transaction>
+    <Transaction>2021.05.20 08:50:31.898.dfm,F:\система\UnitOtdel.dfm=</Transaction>
+    <Transaction>2021.05.20 09:15:59.929.pas,F:\система\Unit1.pas=F:\система\UnitTabVr.pas</Transaction>
+    <Transaction>2021.05.20 09:15:59.929.dfm,F:\система\Unit1.dfm=F:\система\UnitTabVr.dfm</Transaction>
+    <Transaction>2021.05.20 10:08:07.581.pas,F:\система\Unit1.pas=F:\система\UnitOtpusk.pas</Transaction>
+    <Transaction>2021.05.20 10:08:07.581.dfm,F:\система\Unit1.dfm=F:\система\UnitOtpusk.dfm</Transaction>
+    <Transaction>2021.05.20 10:36:03.582.pas,F:\система\Unit1.pas=F:\система\UnitBolnich.pas</Transaction>
+    <Transaction>2021.05.20 10:36:03.582.dfm,F:\система\Unit1.dfm=F:\система\UnitBolnich.dfm</Transaction>
+    <Transaction>2021.05.20 11:12:28.044.pas,F:\система\Unit1.pas=F:\система\UnitUvoln.pas</Transaction>
+    <Transaction>2021.05.20 11:12:28.044.dfm,F:\система\Unit1.dfm=F:\система\UnitUvoln.dfm</Transaction>
+    <Transaction>2021.05.20 11:46:19.405.pas,F:\система\Unit1.pas=F:\система\UnitTrudDog.pas</Transaction>
+    <Transaction>2021.05.20 11:46:19.405.dfm,F:\система\Unit1.dfm=F:\система\UnitTrudDog.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

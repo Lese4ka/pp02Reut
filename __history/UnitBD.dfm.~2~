@@ -1,0 +1,68 @@
+object DataBD: TDataBD
+  OldCreateOrder = False
+  Height = 421
+  Width = 719
+  object ADOOtdelKadrov: TADOConnection
+    Connected = True
+    ConnectionString = 
+      'Provider=Microsoft.Jet.OLEDB.4.0;Data Source='#1073#1072#1079#1072'.mdb;Persist Se' +
+      'curity Info=False'
+    LoginPrompt = False
+    Mode = cmShareDenyNone
+    Provider = 'Microsoft.Jet.OLEDB.4.0'
+    Left = 32
+    Top = 88
+  end
+  object ADOSotrud: TADOTable
+    Active = True
+    Connection = ADOOtdelKadrov
+    CursorType = ctStatic
+    TableName = #1057#1086#1090#1088#1091#1076#1085#1080#1082#1080
+    Left = 136
+    Top = 48
+    object ADOSotrudAutoIncField: TAutoIncField
+      DisplayWidth = 5
+      FieldName = #1050#1086#1076' '#1089#1086#1090#1088
+      ReadOnly = True
+      Visible = False
+    end
+    object ADOSotrudWideStringField: TWideStringField
+      DisplayWidth = 15
+      FieldName = #1060#1048#1054
+      Size = 255
+    end
+    object ADOSotrud_: TIntegerField
+      FieldName = #1050#1086#1076'_'#1086#1090#1076#1077#1083#1072
+    end
+    object ADOSotrudWideStringField2: TWideStringField
+      DisplayWidth = 15
+      FieldName = #1044#1086#1083#1078#1085#1086#1089#1090#1100
+      Size = 255
+    end
+    object ADOSotrudWideStringField3: TWideStringField
+      DisplayWidth = 10
+      FieldName = #1044#1072#1090#1072' '#1088#1086#1078#1076#1077#1085#1080#1103
+      Size = 255
+    end
+    object ADOSotrudWideStringField4: TWideStringField
+      DisplayWidth = 10
+      FieldName = #8470' '#1089#1077#1088#1080#1103' '#1087#1072#1089#1087#1086#1088#1090#1072
+      Size = 255
+    end
+    object ADOSotrudWideStringField5: TWideStringField
+      DisplayWidth = 15
+      FieldName = #1040#1076#1088#1077#1089
+      Size = 255
+    end
+    object ADOSotrudWideStringField6: TWideStringField
+      DisplayWidth = 10
+      FieldName = #1058#1077#1083#1077#1092#1086#1085
+      Size = 255
+    end
+  end
+  object DataSotrud: TDataSource
+    DataSet = ADOSotrud
+    Left = 136
+    Top = 112
+  end
+end

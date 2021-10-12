@@ -1,0 +1,32 @@
+unit UnitTabVr;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs;
+
+type
+  TFormTabVr = class(TForm)
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormTabVr: TFormTabVr;
+
+implementation
+
+uses UnitBD;
+
+{$R *.dfm}
+
+procedure TFormTabVr.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+Action:= CaFree;
+end;
+
+end.

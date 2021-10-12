@@ -1,0 +1,24 @@
+unit UnitUvoln;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs;
+
+type
+  TFormUvoln = class(TForm)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormUvoln: TFormUvoln;
+
+implementation
+
+{$R *.dfm}
+
+end.

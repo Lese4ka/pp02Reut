@@ -1,0 +1,25 @@
+unit UnitMane;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, Menus;
+
+type
+  TFormMane = class(TForm)
+    MainMenu1: TMainMenu;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormMane: TFormMane;
+
+implementation
+
+{$R *.dfm}
+
+end.

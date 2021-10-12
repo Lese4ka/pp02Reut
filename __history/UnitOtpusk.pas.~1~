@@ -1,0 +1,24 @@
+unit UnitOtpusk;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs;
+
+type
+  TFormOtpusk = class(TForm)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormOtpusk: TFormOtpusk;
+
+implementation
+
+{$R *.dfm}
+
+end.

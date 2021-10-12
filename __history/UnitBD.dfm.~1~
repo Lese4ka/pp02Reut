@@ -1,0 +1,5 @@
+object DataBD: TDataBD
+  OldCreateOrder = False
+  Height = 421
+  Width = 440
+end
