@@ -8,10 +8,9 @@ uses
   UnitTabVr in 'UnitTabVr.pas' {FormTabVr},
   UnitOtpusk in 'UnitOtpusk.pas' {FormOtpusk},
   UnitBolnich in 'UnitBolnich.pas' {FormBolnich},
-  UnitUvoln in 'UnitUvoln.pas' {FormUvoln},
-  UnitTrudDog in 'UnitTrudDog.pas' {FormTeudDog};
+  UnitUvoln in 'UnitUvoln.pas' {FormUvoln};
 
-
+//UnitTrudDog in 'UnitTrudDog.pas' {FormTeudDog};
 
 {$R *.res}
 

@@ -15,8 +15,6 @@ type
     N4: TMenuItem;
     N5: TMenuItem;
     N6: TMenuItem;
-    N7: TMenuItem;
-    N8: TMenuItem;
     procedure N2Click(Sender: TObject);
     procedure N5Click(Sender: TObject);
     procedure N4Click(Sender: TObject);
@@ -34,8 +32,7 @@ var
 
 implementation
 
-uses UnitSotrud, UnitOtdel, UnitTabVr, UnitOtpusk, UnitBolnich, UnitUvoln,
-  UnitTrudDog;
+uses UnitSotrud, UnitOtdel, UnitTabVr, UnitOtpusk, UnitBolnich;
 
 {$R *.dfm}
 
@@ -62,12 +59,12 @@ end;
 
 procedure TFormMane.N7Click(Sender: TObject);
 begin
- Application.CreateForm(TFormUvoln, FormUvoln);
+ //Application.CreateForm(TFormUvoln, FormUvoln);
 end;
 
 procedure TFormMane.N8Click(Sender: TObject);
 begin
-  Application.CreateForm(TFormTeudDog, FormTeudDog);
+  //Application.CreateForm(TFormTeudDog, FormTeudDog);
 end;
 
 end.
