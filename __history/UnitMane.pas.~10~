@@ -4,7 +4,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, Menus, jpeg, ExtCtrls;
+  Dialogs, Menus;
 
 type
   TFormMane = class(TForm)
@@ -17,7 +17,6 @@ type
     N6: TMenuItem;
     N7: TMenuItem;
     N8: TMenuItem;
-    Image1: TImage;
     procedure N2Click(Sender: TObject);
     procedure N5Click(Sender: TObject);
     procedure N4Click(Sender: TObject);
